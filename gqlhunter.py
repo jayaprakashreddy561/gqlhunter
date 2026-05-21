@@ -1,13 +1,10 @@
 from core.requester import Requester
 
-from phases.recon.detect_graphql \
-import DetectGraphQL
+from phases.recon.detect_graphql import DetectGraphQL
 
-from phases.schema.introspection \
-import Introspection
+from phases.schema.introspection import Introspection
 
-from phases.fingerprint.apollo \
-import Apollo
+from phases.fingerprint.apollo import Apollo
 
 
 import argparse
